@@ -10,7 +10,7 @@ const PeticionApi = () => {
             const res = await fetch(`https://rickandmortyapi.com/api/character/?page=${paginacion}`)
             const respuesta = await res.json()
             const auxPersonajes = respuesta.results
-            setPersonajes(auxPersonajes)1
+            setPersonajes(auxPersonajes)
         }catch(error){
             console.log(error)
         }
