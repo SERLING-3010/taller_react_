@@ -12,7 +12,7 @@ const PeticionApi = () => {
             const auxPersonajes = respuesta.results
             setPersonajes(auxPersonajes)
         }catch(error){
-            console.log(error)
+            console.log(error)1
         }
     }
 
